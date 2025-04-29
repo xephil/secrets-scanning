@@ -1,6 +1,5 @@
 import requests
 
-# WARNING: Hardcoded secrets are a BAD practice!
 AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 def upload_to_aws():
