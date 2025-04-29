@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aws-secrets-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aws-secrets-demo
+  template:
+    metadata:
+      labels:
+        app: aws-secrets-demo
+    spec:
+      containers:
+      - name: aws-secrets-demo
+        image: your-dockerhub-username/aws-secrets-demo:latest
+        env:
+        - name: AWS_ACCESS_KEY_ID
+          value: "AKIA3MTWN5MBGU6LVPP2"
+        - name: AWS_SECRET_ACCESS_KEY
+          value: "dHFb1xhIrNhfcBhEWIwdjVXdVmv1c5UfYy1NkvTF"
