@@ -1,1 +1,2 @@
-123
+aws_access_key_id = "AKIA3MTWN5MBGU6LVPP2"
+aws_secret_access_key = "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"
