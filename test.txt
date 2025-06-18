@@ -1,2 +1,4 @@
 aws_access_key_id = "AKIA3MTWN5MBGU6LVPP2"
 aws_secret_access_key = "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"
+appsync_api_key = "da2-gbcsjtcp2naqtev5ju234uid2m"
+github_token = "github_pat_1231239i12i3120310213"
