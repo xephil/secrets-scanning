@@ -4,7 +4,7 @@ provider "aws" {
 
 provider "github" {
   token = "github_pat_1231239i12i3120310213"
-  token = "ghp_abCDeFGhiJKlMNOpQRStuvWXyz1234567890"
+  token = "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"
   owner = "mock-org"
 }
 
